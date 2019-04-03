@@ -15,4 +15,17 @@
 * [IBM Rhapsody Tables: Context Patterns in Table Views](https://www.youtube.com/watch?v=iTHTxF5vOMc&t=0s&index=7&list=PLZGO0qYNSD4VrcVNWT5ltkBI8vbkMDY0Y)
 * [IBM Rhapsody Tables: Combining Context Patterns and Java](https://www.youtube.com/watch?v=_FgEcqytjt4&index=13&list=PLZGO0qYNSD4VrcVNWT5ltkBI8vbkMDY0Y)
 
+### AUTOSAR
+
+* ServerPort List
+{Pkg} ARPackage+, {Swc} ApplicationSwComponentType+, {port} serverPort, {interface} portType:
+
+* ClientPort List
+{Pkg} ARPackage+, {Swc} ApplicationSwComponentType+, {port} clientPort, {interface} portType:
+
+* DataSenderPort List
+{Pkg} ARPackage+, {Swc} ApplicationSwComponentType+, {port} dataSenderPort, {interface} portType:
+
+* DataReceiverPort List
+{Pkg} ARPackage+, {Swc} ApplicationSwComponentType+, {port} dataReceiverPort, {interface} portType:
 
