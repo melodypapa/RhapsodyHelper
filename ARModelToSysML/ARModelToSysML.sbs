@@ -1,0 +1,43 @@
+I-Logix-RPY-Archive version 8.0.6 C 803405
+{ IProfile 
+	- _id = GUID 91864c8f-95d7-4976-9d75-40aeba397f14;
+	- _myState = 8192;
+	- _name = "ARModelToSysML";
+	- _lastID = 1;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID f31a1933-2f19-4df9-bd74-a0f0d6f7ad8b;
+			- _myState = 8192;
+			- _name = "ARModelToSysML";
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Project"; 
+			}
+			- _newTerm = 1;
+		}
+	}
+	- weakCGTime = 1.30.2007::15:47:10;
+	- strongCGTime = 1.30.2007::15:46:51;
+	- _defaultComposite = GUID 5be94940-3272-4001-af87-f73e79dff62b;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 5be94940-3272-4001-af87-f73e79dff62b;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.30.2007::15:46:51;
+			- strongCGTime = 1.30.2007::15:46:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

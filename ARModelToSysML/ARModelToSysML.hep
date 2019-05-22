@@ -1,0 +1,18 @@
+[Helpers]
+numberOfElements=2
+
+#REM: ARModelToSysML
+name1=ARModelToSysML
+JavaMainClass1=com.github.melodypapa.rhapsody.plugin.AtomicComponentConverter
+JavaClassPath1=$OMROOT\ARModelToSysML\ARModelToSysML.jar
+isPlugin1=1
+applicableTo2=ARPackage
+isVisible1=0
+
+
+#REM: Definition of the pup-up menu that trigger the plugin
+name2=AUTOSAR tools\Atomic Component Conversion
+isPluginCommand2=1
+command2=ARModelToSysML
+applicableTo2=ARPackage
+isVisible2=1
